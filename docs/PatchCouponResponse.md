@@ -1,0 +1,51 @@
+# PatchCouponResponse
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Data** | [**PostCouponResponseData**](PostCouponResponseData.md) |  | 
+
+## Methods
+
+### NewPatchCouponResponse
+
+`func NewPatchCouponResponse(data PostCouponResponseData, ) *PatchCouponResponse`
+
+NewPatchCouponResponse instantiates a new PatchCouponResponse object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewPatchCouponResponseWithDefaults
+
+`func NewPatchCouponResponseWithDefaults() *PatchCouponResponse`
+
+NewPatchCouponResponseWithDefaults instantiates a new PatchCouponResponse object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetData
+
+`func (o *PatchCouponResponse) GetData() PostCouponResponseData`
+
+GetData returns the Data field if non-nil, zero value otherwise.
+
+### GetDataOk
+
+`func (o *PatchCouponResponse) GetDataOk() (*PostCouponResponseData, bool)`
+
+GetDataOk returns a tuple with the Data field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetData
+
+`func (o *PatchCouponResponse) SetData(v PostCouponResponseData)`
+
+SetData sets Data field to given value.
+
+
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
